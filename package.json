@@ -8,7 +8,7 @@
     "dev": "gulp",
     "build": "gulp build",
     "cache": "gulp cache",
-    "backend": "gulp backend",
+    "backend": "gulp backend && npm run lint",
     "code": "editorconfig-checker",
     "lint": "stylelint app/css/*.css --syntax css --fix"
   },
