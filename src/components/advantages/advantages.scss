@@ -1,0 +1,54 @@
+@import "../../scss/mixins";
+
+.advantages {
+  background-color: var(--color-content) ;
+  padding: 40px 0;
+}
+
+.advantages__wrap {
+
+}
+
+.advantages__title {
+  margin: 0;
+  margin-bottom: 10px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 100%;
+  text-align: center;
+  color: var(--color-black);
+}
+
+.advantages__content {
+
+  .advantages__text {
+    font-size: 15px;
+    line-height: 132%;
+    color: var(--color-black);
+  }
+}
+
+.advantages__list {
+  margin-top: 0;
+  font-size: 15px;
+  line-height: 132%;
+  color: var(--color-black);
+}
+
+.advantages__item {
+
+}
+
+.advantages__btn {
+
+  .button {
+
+    .btn--text-header {
+
+      @include mobile-360 {
+        font-size: 18px;
+        margin: 0 5px;
+      }
+    }
+  }
+}

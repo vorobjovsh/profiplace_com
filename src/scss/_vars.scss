@@ -1,0 +1,14 @@
+// если вы хотите использовать sass-переменные - удалите root
+// colors
+:root {
+  --color-black: #000;
+  --color-white: #fff;
+  --color-header: #151515;
+  --color-line: #448CCB;
+  --color-content: #E5E5E5;
+  --color-footer: #2A2727;
+
+  --burger-width: 40px;
+  --burger-height: 30px;
+  --burger-line-height: 2px;
+}

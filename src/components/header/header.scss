@@ -1,0 +1,63 @@
+@import "../../scss/mixins";
+
+.header {
+  background-color: var(--color-header);
+  padding: 40px 0 37px;
+}
+
+.header__top {
+  @include flex-all-sa;
+  margin-bottom: 35px;
+}
+
+.header__info {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.header__title {
+  font-family: Arimo;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 34px;
+  text-align: center;
+  color: var(--color-white);
+  margin-top: 0;
+  margin-bottom: 25px;
+}
+
+.header__text {
+  font-size: 16px;
+  line-height: 130%;
+  text-align: center;
+  letter-spacing: 0.035em;
+  color: var(--color-white);
+  margin-top: 0;
+  margin-bottom: 30px;
+
+  &--bottom {
+    margin-bottom: 0;
+  }
+
+}
+
+.header__contacts {
+  display: flex;
+  margin-bottom: 7px;
+
+  &--img {
+
+  }
+
+  &--span {
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 17px;
+    color: var(--color-white);
+  }
+}
+
+.header__content {
+  margin-bottom: 40px;
+}

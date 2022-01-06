@@ -1,0 +1,25 @@
+.advantages-card {
+  background-color: var(--color-white);
+  text-align: center;
+  margin-bottom: 20px;
+  padding: 45px;
+}
+
+.advantages-card__title {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 132%;
+  text-align: center;
+  color: var(--color-black);
+  margin: 0;
+  margin-bottom: 37px;
+}
+
+.advantages-card__text {
+  margin: 0;
+  margin-bottom: 52px;
+}
+
+.advantages-card__price {
+  margin-bottom: 0;
+}

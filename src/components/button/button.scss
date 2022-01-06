@@ -1,0 +1,7 @@
+@import "../../scss/mixins";
+
+.button {
+  @include flex-all-center;
+  border: 3px solid var(--color-line);
+  padding: 16px 13px;
+}

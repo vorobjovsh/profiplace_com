@@ -1,0 +1,7 @@
+@import "../../scss/mixins";
+
+.burger-top {
+  @include burger;
+  color: var(--color-white);
+}
+

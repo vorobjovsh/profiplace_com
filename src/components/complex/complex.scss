@@ -1,0 +1,44 @@
+.complex {
+  background-color: var(--color-header);
+  padding: 12px 0 40px;
+}
+
+.complex__wrap {
+  display: grid;
+  grid-template-columns: 100%;
+  // grid-template-rows: 210px 78px 400px 80px;
+}
+
+.complex__img {
+
+}
+
+.complex__title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 62.5%;
+  color: var(--color-white);
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 57px;
+}
+
+.complex__text {
+  font-size: 15px;
+  line-height: 132%;
+  color: var(--color-white);
+  margin-bottom: 50px;
+
+  & p:first-child {
+    margin-top: 0;
+  }
+
+  & p:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.complex__btn {
+
+}

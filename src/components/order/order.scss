@@ -1,0 +1,39 @@
+.order {
+  background-color: var(--color-black);
+  padding: 40px 0;
+}
+
+.order__title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 100%;
+  text-align: center;
+  color: var(--color-white);
+  margin: 0;
+  margin-bottom: 40px;
+}
+
+.order__wrap {
+
+}
+
+.order__subtitle {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 130%;
+  color: var(--color-white);
+  margin: 0;
+  margin-bottom: 12px;
+}
+
+.order__info {
+  margin: 0;
+  margin-bottom: 30px;
+  font-size: 15px;
+  line-height: 132%;
+  color: var(--color-white);
+}
+
+.order__btn--download {
+  margin-bottom: 30px;
+}

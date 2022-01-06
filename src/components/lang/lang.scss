@@ -1,0 +1,22 @@
+.lang {
+  display: flex;
+  margin: 0 auto;
+}
+
+.lang__link {
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 17px;
+  align-items: center;
+  color: var(--color-white);
+  border-right: 2px solid var(--color-white);
+  padding: 1px 7px;
+}
+
+.lang__item:last-child .lang__link {
+  border-right: none;
+}
+
+.lang--active {
+  color: var(--color-line);
+}

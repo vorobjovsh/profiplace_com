@@ -1,0 +1,16 @@
+.services {
+  padding: 40px 0;
+  background-image: url("../img/services-background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 1055px;
+}
+
+.services__title {
+  font-size: 18px;
+  line-height: 100%;
+  text-align: center;
+  color: var(--color-black);
+  margin: 0;
+  margin-bottom: 47px;
+}

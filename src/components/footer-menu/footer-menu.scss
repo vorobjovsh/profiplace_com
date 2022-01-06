@@ -1,0 +1,16 @@
+.footer-menu {
+}
+
+.footer-menu__item {
+  margin-bottom: 5px;
+}
+
+.footer-menu__link {
+  font-size: 14px;
+  line-height: 19px;
+  color: var(--color-white);
+
+  &:hover {
+    text-decoration: underline;
+  }
+}

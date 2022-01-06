@@ -1,0 +1,24 @@
+.footer-socials {
+
+}
+
+.footer-socials__item {
+  margin: 0;
+  margin-bottom: 7px;
+}
+
+.footer-socials__img {
+  vertical-align: middle;
+  margin-right: 14px;
+}
+
+.footer-socials__link {
+  vertical-align: middle;
+  font-size: 14px;
+  line-height: 16px;
+  color: var(--color-white);
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
