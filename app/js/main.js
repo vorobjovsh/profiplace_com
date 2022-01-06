@@ -1,0 +1,1 @@
+"use strict";function yearInCopiright(e){var o=(new Date).getFullYear();document.getElementById(e).innerText=o}console.log("global"),console.log("maxgraph"),yearInCopiright("footer-copyright__year");
